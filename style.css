@@ -1,0 +1,413 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #141e46;
+}
+.wrapper {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  height: 3669px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* wielkość i pozycja wszystkich zdjęć */
+img {
+  width: 100%;
+  height: 100%;
+}
+.pictureFirst {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 749.31px;
+  height: 772.47px;
+}
+
+.logo {
+  position: absolute;
+  top: 68px;
+  left: 114px;
+  width: 372px;
+  height: 83px;
+}
+
+.schoolOnline {
+  position: absolute;
+  top: 327.2px;
+  left: 0;
+  width: 979.79px;
+  height: 1126.67px;
+}
+.schoolOnline h1 {
+  padding-top: 13.8px;
+  padding-left: 120px;
+  display: block;
+  width: 508px;
+  height: 43px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+}
+.schoolOnline p {
+  width: 600px;
+  height: 112px;
+  font-size: 32px;
+  font-weight: normal;
+  padding-top: 61px;
+  padding-left: 120px;
+}
+
+.imgGirl {
+  position: absolute;
+  top: 477.8px;
+  left: -275px;
+  height: 607px;
+}
+
+.schoolOnline p:last-child {
+  position: absolute;
+  top: 1206.8px;
+  width: 524.4px;
+}
+
+/*second page*/
+.form {
+  position: absolute;
+  top: 939px;
+  left: 555.74px;
+  width: 884.26px;
+  height: 1190.48px;
+}
+.listAdvantages {
+  position: absolute;
+  left: 736px;
+  top: 929px;
+  width: 749.31px;
+  padding-right: 0px;
+  list-style-type: none;
+}
+.listAdvantages li {
+  padding: 10px;
+  position: relative;
+}
+.listAdvantages li span {
+  font-size: 20px;
+  font-weight: normal;
+  padding-right: 40%;
+}
+
+li:before {
+  content: "";
+  background-color: #f9d400;
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*formularz*/
+.form {
+  position: absolute;
+  top: 1350px;
+  left: 850px;
+  width: 347px;
+  height: 565px;
+  border-radius: 27px;
+  background-color: #ffff;
+}
+.form form {
+  height: 100%;
+}
+
+.form h1 {
+  width: 242px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 27px;
+  padding-left: 46px;
+  padding-right: 59px;
+}
+.form label {
+  margin-top: 30px;
+}
+.form span {
+  display: block;
+  width: 100%;
+  padding-left: 46px;
+}
+.form input {
+  width: 242px;
+  margin-left: 46px;
+  margin-bottom: 10px;
+}
+.form .country {
+  width: 80px;
+}
+.form .telephone {
+  width: 153px;
+  margin-left: 1px;
+}
+
+/* zgody na przetwarzanie danych */
+.permission {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.permission label {
+  margin: 0 0 10px 0;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+.permission input {
+  margin: 10px 0 0 0;
+  width: 15px;
+  height: 15px;
+}
+.permission span {
+  width: 242px;
+  padding: 0 40px 0 10px;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+
+/* zgody na otrzymywanie emaila */
+span.AddInformation {
+  font-size: 10px;
+  width: 242px;
+  padding-left: 0px;
+  margin-left: 40px;
+}
+.AddInformation p {
+  margin: 0px 0px;
+  padding-top: 4px;
+}
+
+/*Przycisk formularza*/
+.buttonForm {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #141e46;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 7%;
+  width: 30%;
+  height: 7%;
+  border-radius: 20%/40%;
+  border-color: transparent;
+  background-color: #f9d400;
+  cursor: pointer;
+}
+
+/*zdjęcie za formularzem*/
+.SecondPlanForm {
+  position: absolute;
+  left: -35%;
+  bottom: 2%;
+  z-index: -1;
+  width: 1251px;
+  height: 665px;
+}
+
+/*Druga sekcja itd*/
+.beginningStudy h1 {
+  position: absolute;
+  top: 2018px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 729px;
+  height: 119px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px 0px;
+}
+
+.contentBeginningStudy {
+  width: 100%;
+  position: absolute;
+  top: 2158.17px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.contentBeginningStudy div {
+  width: 290px;
+  height: 287.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 50px;
+}
+.contentBeginningStudy div p {
+  margin: 0 0 0 0;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
+.contentBeginningStudy div img {
+  width: 160.01px;
+  height: 158.3px;
+}
+
+/* Trzecia sekcja */
+.joinSection {
+  position: absolute;
+  bottom: 1155px;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+.joinSection img {
+  width: 841.8px;
+  height: 645.16px;
+  position: absolute;
+  right: 761.46px;
+}
+.joinSection .joinSectionText {
+  position: absolute;
+  bottom: -459px;
+  right: 83px;
+  /* border: 2px solid black; */
+  width: 744px;
+  height: 245px;
+}
+.joinSection .joinSectionText p {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px 20px 0px 20px;
+  font-weight: bold;
+}
+.joinSection .joinSectionText p span {
+  display: inline-block;
+  margin-top: 30px;
+}
+.joinSectionText button {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: transparent;
+  border-radius: 23px;
+  width: 170px;
+  height: 45px;
+  text-transform: uppercase;
+  background-color: #f9d400;
+  cursor: pointer;
+}
+
+/* Slider */
+.slider {
+  position: absolute;
+  top: 3134px;
+  width: 100%;
+}
+.slider h1 {
+  font-size: 32px;
+  font-weight: bold;
+  width: 665px;
+  height: 52px;
+  text-align: left;
+  margin: 0 auto;
+}
+.slider p {
+  width: 855px;
+  height: 202px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 42px auto;
+}
+.slider p span {
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.slider button {
+  position: absolute;
+  top: 321px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 259px;
+  height: 45px;
+  border-radius: 23px;
+  border-color: transparent;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f9d400;
+  cursor: pointer;
+}
+
+/*arrows*/
+.arrowRight {
+  position: absolute;
+  top: 36%;
+  right: 224px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  border-right: 4px solid #141e46;
+  border-top: 4px solid #141e46;
+  cursor: pointer;
+}
+.arrowLeft {
+  position: absolute;
+  top: 36%;
+  left: 226px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  border-left: 4px solid #141e46;
+  border-bottom: 4px solid #141e46;
+  cursor: pointer;
+}
+
+.containerFooter {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 783px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerFooter a {
+  font-size: 16px;
+  color: #141e46;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+.fa-facebook-square,
+.fa-instagram {
+  font-size: 25px;
+}
