@@ -33,8 +33,8 @@
         <div class="form">
             <form>
                 <h1>Wypełnij formularz i otrzymaj więcej informacji!</h1>
-                <label><span>Imię Rodzica*</span><input type="text" placeholder="imię rodzica"></label>
-                <label><span>E-mail*</span><input type="email" placeholder="E-mail"></label>
+                <label><span>Imię Rodzica*</span><input type="text" class="name" placeholder="imię"></label>
+                <label><span>E-mail*</span><input type="email" class="email" placeholder="E-mail"></label>
                 <label><input type="text" list="kraj" placeholder="Kraj" class="country"> 
                     <datalist id="kraj"> 
                        <option value="Polska">
@@ -42,9 +42,9 @@
                        <option value="Rosja">
                        <option value="Chiny">           
                     </datalist>
-                <input type="tel" class="telephone" placeholder="Numer telefonu"></label>
+                <input type="tel" class="telephone" placeholder=" +xx Numer telefonu"></label>
               <label class="permission">
-                <label><input type="checkbox" name="info" value="rules"><span>zapoznałem się z treścią <a href="#">regulaminu</a> i akceptuje jego        postanowienia *</span></label>
+                <label><input type="checkbox" name="info" class="rules" value="rules"><span>Zapoznałem się z treścią <a href="#">regulaminu</a> i akceptuje jego postanowienia *</span></label>
                 <label><input type="checkbox" name="info" value="permissionEmail"><span>Chce otrzymywać informacje o ofercie edukacyjnej Polonijki        Polonijnej Szkoły Podstawowej na podany adres e-mail</span></label>
                 <label><input type="checkbox" name="info" value="permissionTel"><span>Chce otrzymywać informacje o ofercie edukacyjnej Polonijki          Polonijnej Szkoły Podstawowej na podany przezemnie numer telefonu (rozmowa, sms) </span></label>
                </label>
@@ -53,7 +53,7 @@
                     <p> * obowiązkowe</p>
                     <p> Zarejestruj sie aby otrzymać ofertę dostępu do pełnej wersji platformy</p>
                 </span>
-                <button type="submit" value="Send" class="buttonForm">Wyślij</button>
+                 <input type="submit" value="Wyślij" class="buttonForm">
             </form>
             <img src="image/plama-zolta.png" alt="plama-zolta" class="SecondPlanForm">
          </div>
@@ -75,10 +75,10 @@
      </section>
      <section class="slider">
           <h1>Przeczytaj co o Polonijce, mówią inni rodzice</h1>
-          <p>Po dwóch miesiącach nauki widzimy już lekką zmianę w porozumiewaniu się z synem po polsku. Dziękujemy twórcom tego programu i życzymy    jeszcze więcej pomysłów i wytrwałości w tworzeniu tej strony. Oczywiście polecamy wszystkim rodzicom mieszkającym za granica ze          swoimi pociechami.</br><span> Tata Radek</span></p>
+          <p>Po dwóch miesiącach nauki widzimy już lekką zmianę w porozumiewaniu się z synem po polsku. Dziękujemy twórcom tego programu i życzymy    jeszcze więcej pomysłów i wytrwałości w tworzeniu tej strony. Oczywiście polecamy wszystkim rodzicom mieszkającym za granica ze          swoimi pociechami.</p><span> Tata Radek</span>
           <button class="buttonTest">przetestuj polonijkę</button>
-          <div class="arrowRight"></div>
-         <div class="arrowLeft"></div>
+          <div class="arrowRight arrow"></div>
+         <div class="arrowLeft arrow"></div>
      </section>
      <footer class="containerFooter">
        <a href="www.polonijka.edu.pl">www.polonijka.edu.pl</a>
@@ -88,6 +88,6 @@
        <a href="#"><i class="fab fa-facebook-square"></i></a>
      </footer>
     </div>
-    <script type="text/javascript" src="animation.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
