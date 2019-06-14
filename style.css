@@ -10,12 +10,14 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 1440px;
   height: 3669px;
+  width: 100%;
   background-color: #ffffff;
   overflow: hidden;
   max-width: 1440px;
   max-height: 3669px;
+  min-width: 320px;
+  /* width: 1440px;*/
 }
 
 /* Size and position all image */
@@ -27,76 +29,98 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  width: 749.31px;
-  height: 772.47px;
+  width: 52%;
+  /* height: 21%; */
+  height: auto;
+  /* height: 772.47px; */
+  /* width: 749.31px; */
 }
 
 .logo {
   position: absolute;
-  top: 68px;
-  left: 114px;
-  width: 372px;
-  height: 83px;
+  top: 1.85%;
+  left: 7.91%;
+  width: 25.83%;
+  /* height: 2.26%; */
+  height: auto;
+  /* top: 68px; */
+  /* left: 114px; */
+  /* width: 372px; */
+  /* height: 83px; */
 }
 
 .schoolOnline {
   position: absolute;
-  top: 327.2px;
+  top: 8.91%;
   left: 0;
-  width: 979.79px;
-  height: 1126.67px;
+  width: 68.04%;
+  height: 30.7%;
+  /* width: 979.79px; */
+  /* top: 327.2px; */
+  /* height: 1126.67px; */
 }
 .schoolOnline h1 {
-  padding-top: 13.8px;
-  padding-left: 120px;
+  padding-top: 4.21%;
+  padding-left: 12.24%;
   display: block;
-  width: 508px;
-  height: 43px;
+  width: 51.84%;
+  height: 3.81%;
   text-transform: uppercase;
   font-size: 32px;
   font-weight: bold;
+  /* padding-left: 120px; */
+  /* padding-top: 13.8px; */
+  /* width: 508px; */
+  /* height: 43px; */
 }
 .schoolOnline p {
-  width: 600px;
-  height: 112px;
+  width: 61.2%;
+  height: 9.94%;
   font-size: 32px;
   font-weight: normal;
-  padding-top: 61px;
-  padding-left: 120px;
+  padding-top: 5.41%;
+  padding-left: 12.24%;
+  /* padding-top: 61px;
+  padding-left: 120px; */
+  /* width: 600px;
+  height: 112px; */
 }
 
 .imgGirl {
   position: absolute;
-  top: 477.8px;
+  top: 42.4%;
+  left: -28.06%;
+  /* height: 53.8%; */
+  height: auto;
+  /* top: 477.8px;
   left: -275px;
-  height: 607px;
+  height: 607px; */
 }
 
 .schoolOnline p:last-child {
   position: absolute;
-  top: 1206.8px;
-  width: 524.4px;
+  top: 107.11%;
+  width: 53.52%;
+  /* top: 1206.8px;
+  width: 524.4px; */
 }
 
 /*second page*/
-.form {
-  position: absolute;
-  top: 939px;
-  left: 555.74px;
-  width: 884.26px;
-  height: 1190.48px;
-}
+
 .listAdvantages {
   position: absolute;
-  left: 736px;
-  top: 929px;
-  width: 749.31px;
-  padding-right: 0px;
+  left: 51.11%;
+  top: 25.32%;
+  width: 52.03%;
   list-style-type: none;
+  /* left: 736px;
+  top: 929px;
+  width: 749.31px; */
 }
 .listAdvantages li {
-  padding: 10px;
+  padding: 1.33%;
   position: relative;
+  /* padding: 10px; */
 }
 .listAdvantages li span {
   font-size: 20px;
@@ -109,57 +133,69 @@ li:before {
   background-color: #f9d400;
   display: inline-block;
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  margin-left: -40px;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-left: -5.3%;
 }
 
 /*Form*/
 
 .form {
   position: absolute;
-  top: 1350px;
-  left: 850px;
-  width: 347px;
-  height: 565px;
+  top: 36.79%;
+  left: 59.02%;
+  width: 24.09%;
+  /* height: auto; */
+  height: 15.39%;
   border-radius: 27px;
   background-color: #ffff;
+  /* top: 1350px;
+  left: 850px;
+  width: 347px;
+  height: 565px; */
 }
 .form form {
   height: 100%;
 }
 
 .form h1 {
-  width: 242px;
-  height: 48px;
+  width: 69.74%;
+  height: 8.49%;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  padding-top: 27px;
+  padding: 4.77% 17% 0 13.25%;
+  /* padding-top: 27px;
   padding-left: 46px;
-  padding-right: 59px;
+  padding-right: 59px; */
+  /* width: 242px;
+  height: 48px; */
 }
 .form label {
-  margin-top: 30px;
+  margin-top: 5.3%;
+  /* margin-top: 30px; */
 }
 .form span {
   display: block;
   width: 100%;
-  padding-left: 46px;
+  padding-left: 13.25%;
+  /* padding-left: 46px; */
 }
 .form input {
-  width: 242px;
+  width: 69.7%;
+  margin: 0 0 1.67% 13.25%;
+  /* width: 242px;
   margin-left: 46px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
 }
 .form .country {
-  width: 80px;
+  width: 23.05%;
 }
 .form .telephone {
-  width: 153px;
+  width: 44.09%;
   margin-left: 1px;
 }
 
@@ -170,21 +206,23 @@ li:before {
   flex-wrap: nowrap;
 }
 .permission label {
-  margin: 0 0 10px 0;
+  margin: 0 0 1.76% 0;
   justify-content: flex-end;
   align-items: flex-start;
   display: flex;
   flex-direction: row;
 }
 .permission input {
-  margin: 10px 0 0 0;
-  width: 15px;
-  height: 15px;
+  margin: 1.76% 0 0 0;
+  width: 17px;
+  height: 17px;
 }
 .permission span {
-  width: 242px;
-  padding: 0 40px 0 10px;
+  width: 69.74%;
+  padding: 0 11.52% 0 2.88%;
   font-size: 13px;
+  /* width: 242px;
+  padding: 0 40px 0 10px; */
 }
 a {
   text-decoration: none;
@@ -192,13 +230,15 @@ a {
 
 span.AddInformation {
   font-size: 10px;
-  width: 242px;
+  width: 69.74%;
   padding-left: 0px;
-  margin-left: 40px;
+  margin-left: 11.52%;
+  /* margin-left: 40px; */
+  /* width: 242px; */
 }
 .AddInformation p {
   margin: 0px 0px;
-  padding-top: 4px;
+  padding-top: 0.7%;
 }
 
 /*Button form*/
@@ -226,71 +266,92 @@ input.buttonForm {
   left: -35%;
   bottom: 2%;
   z-index: -1;
-  width: 1251px;
-  height: 665px;
+  width: 360.51%;
+  height: 117.69%;
+  /* width: 1251px;
+  height: 665px; */
 }
 
 /*Second Section (beginningStudy)*/
 .beginningStudy h1 {
   position: absolute;
-  top: 2018px;
+  top: 55%;
   right: 50%;
   transform: translateX(50%);
-  width: 729px;
-  height: 119px;
+  width: 50.6%;
+  height: 3.24%;
   text-align: center;
   font-size: 30px;
   margin: 0px 0px;
+  /* width: 729px;
+  height: 119px; */
+  /* top: 2018px; */
 }
 
 .contentBeginningStudy {
   width: 100%;
   position: absolute;
-  top: 2158.17px;
+  top: 58.82%;
+  left: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  /* top: 2158.17px; */
 }
 .contentBeginningStudy div {
-  width: 290px;
+  width: 20.13%;
   height: 287.6px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 3.47%;
+  /* width: 290px; */
 }
 .contentBeginningStudy div p {
   margin: 0 0 0 0;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10.43%;
   font-size: 20px;
+  /* padding-top: 30px; */
 }
-.contentBeginningStudy div img {
-  width: 160.01px;
-  height: 158.3px;
+
+.contentBeginningStudy div .containerImg {
+  width: 63.35%;
+ 
+  /* height: 55.15%; */
+  /* width: 160.01px;*/
+  height: 158.3px; 
 }
 
 /* Section third (joindSection) */
 .joinSection {
   position: absolute;
-  bottom: 1155px;
+  bottom: 31.47%;
+  /* height: 100vh; */
+  left: 0;
   width: 100%;
+  /* bottom: 1155px; */
 }
 .joinSection img {
-  width: 841.8px;
-  height: 645.16px;
+  width: 58.45%;
+  height: auto;
   position: absolute;
-  right: 761.46px;
+  right: 52.87%;
+  top: 100%;
+  /* right: 761.46px; */
+  /* width: 841.8px; */
 }
 .joinSection .joinSectionText {
   position: absolute;
   bottom: -459px;
-  right: 83px;
-  width: 744px;
+  right: 5.76%;
+  width: 51.66%;
   height: 245px;
+  /* right: 83px; */
+  /* width: 744px; */
 }
 .joinSection .joinSectionText p {
   margin: 0 0 0 0;
@@ -314,34 +375,40 @@ input.buttonForm {
   transform: translateX(-50%);
   border-color: transparent;
   border-radius: 23px;
-  width: 170px;
-  height: 45px;
+  width: 22.8%;
+  height: 18.3%;
   text-transform: uppercase;
   background-color: #f9d400;
   cursor: pointer;
+  /* width: 170px; */
+  /* height: 45px; */
 }
 
 /* Slider */
 .slider {
   position: absolute;
-  top: 3134px;
+  top: 85.41%;
+  left: 0;
   width: 100%;
+  /* top: 3134px; */
 }
 .slider h1 {
   font-size: 32px;
   font-weight: bold;
-  width: 665px;
+  width: 46.1%;
+  /* width: 665px; */
   height: 52px;
   text-align: left;
   margin: 0 auto;
 }
 .slider p {
-  width: 855px;
+  width: 59.3%;
   height: 202px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin: 42px auto;
+  /* width: 855px; */
 }
 .slider span {
   font-family: "Nunito", sans-serif;
@@ -358,7 +425,8 @@ input.buttonForm {
   top: 321px;
   left: 50%;
   transform: translateX(-50%);
-  width: 259px;
+  width: 18%;
+  /* width: 259px; */
   height: 45px;
   border-radius: 23px;
   border-color: transparent;
@@ -373,7 +441,9 @@ input.buttonForm {
 .arrowRight {
   position: absolute;
   top: 36%;
-  right: 224px;
+  right: 15.5%;
+  /* right: 224px; */
+  /* width: 16px; */
   width: 16px;
   height: 16px;
   transform: rotate(45deg);
@@ -384,8 +454,10 @@ input.buttonForm {
 .arrowLeft {
   position: absolute;
   top: 36%;
-  left: 226px;
+  left: 15.5%;
+  /* left: 226px; */
   width: 16px;
+  /* width: 16px; */
   height: 16px;
   transform: rotate(45deg);
   border-left: 4px solid #141e46;
@@ -396,10 +468,12 @@ input.buttonForm {
 /* Footer */
 .containerFooter {
   position: absolute;
-  bottom: 28px;
+  bottom: 0.76%;
+  /* bottom: 28px; */
   left: 50%;
   transform: translateX(-50%);
-  width: 783px;
+  width: 54.375%;
+  /* width: 783px; */
   height: 62px;
   display: flex;
   flex-direction: row;
@@ -417,4 +491,336 @@ input.buttonForm {
 .fa-facebook-square,
 .fa-instagram {
   font-size: 25px;
+}
+
+/*Media */
+@media all and (max-width: 1377px) {
+  .slider h1 {
+    font-size: 30px;
+  }
+  .schoolOnline {
+    top: 5%;
+  }
+  .listAdvantages {
+    top: 21%;
+  }
+}
+@media all and (max-width: 1290px) {
+  .slider h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .form h1 { 
+    font-size: 16px;
+}
+@media all and (max-width: 1118px) {
+  .slider h1 {
+    font-size: 26px;
+    text-align: center;
+    width: 60%;
+  }
+  .form h1 { 
+    font-size: 14px;
+}
+.listAdvantages {
+  width: 40.03%  
+}
+li:before {
+  margin-left: -8.3%;
+}
+}
+
+@media all and (max-width: 1071px){
+  .form { 
+    top: 33%;
+     width: 28%;
+     height: 15%;
+} 
+.joinSection .joinSectionText {
+  bottom: -400px;
+}
+.joinSection .joinSectionText p{
+  font-size: 24px;
+}
+.containerFooter a {
+  font-size: 12px;
+}
+.slider p {
+  font-size: 17px;
+}
+.listAdvantages {
+  top: 18.32%;
+}
+.schoolOnline p:last-child {
+  top: 95%;
+  }
+.beginningStudy h1 {   
+    top: 52%;
+  }
+.contentBeginningStudy {
+      top: 56%;
+    }
+}
+@media all and (max-width: 855px){
+  li:before {
+    margin-left: -11.3%;
+  }
+  .form { 
+    top: 33%;
+     width: 35%;
+     height: 15%;
+} 
+.joinSectionText button {
+  font-size: 14px;
+}
+.contentBeginningStudy div .containerImg {
+  height: 107.3px; 
+}
+.joinSection .joinSectionText {
+  bottom: -350px;
+}
+.containerFooter {
+  width: 70%;
+}
+.joinSectionText button {
+  bottom: -70px;
+}
+}
+
+@media all and (max-width: 750px){
+
+  .joinSection .joinSectionText {
+    bottom: -200px;
+  }
+  .slider {
+    top: 83%;
+  }
+  .joinSectionText button {
+    font-size: 12px;
+  }
+  .form { 
+     width: 38%;
+} 
+.schoolOnline p {
+  font-size: 27px;
+}
+.schoolOnline h1 {
+  font-size: 28px;
+}
+.slider span {
+  top: 80%;
+}
+.contentBeginningStudy div p {
+  font-size: 16px;
+}
+}
+@media all and (max-width: 650px){
+.joinSectionText button {
+  width: 30%;
+}
+.schoolOnline h1 {
+  font-size: 25px;
+}
+.schoolOnline p {
+  font-size: 22px;
+}
+.listAdvantages li span {
+ font-size: 16px;
+}
+li:before {
+  margin-left: -18.3%;
+}
+.containerFooter {
+  width: 90%;
+}
+.slider span {
+  top: 95%;
+}
+
+.slider button {
+  top: 400px;
+  width: 25%;
+}
+}
+@media all and (max-width: 580px){
+  .schoolOnline h1 {
+    font-size: 26px;
+    width:70%;
+  }
+  .schoolOnline p {
+    padding-top: 10%;
+  }
+  .form { 
+     top: 33%;
+     width: 45%;
+     left: 50%;
+} 
+.beginningStudy h1 {
+  width: 80%;
+}
+.joinSectionText button {
+  bottom: -150px;
+}
+}
+
+/*powiekszenie zdjęć  i zmiana ustawienia obrazków*/
+@media all and (max-width: 470px){
+
+  .schoolOnline h1 {
+   width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .pictureFirst {
+    width: 56%;
+    height: 15%;
+  }
+  .imgGirl {
+    height: 30%;
+    }
+    .listAdvantages { 
+      left: 47%; 
+    }
+
+.joinSectionText button {
+  bottom: -200px;
+  width: 40%;
+}
+.slider h1 {
+  width: 90%;
+}
+.slider span {
+  top: 105%;
+}
+.containerFooter a {
+  font-size: 10px;
+}
+/*zmiana flexa dla sekcji beginnStudy*/
+.contentBeginningStudy {
+  top: 56%;
+  flex-direction: column;
+  align-items: center; 
+}
+.contentBeginningStudy div {
+  width: 60%;;
+  height: 250px;
+}
+.contentBeginningStudy div p {
+  margin: 0 0 0 0;
+  text-align: center;
+  padding-top: 10.43%;
+  font-size: 18px;
+}
+.joinSection .joinSectionText {
+  bottom: -550px;
+}
+.joinSection img {
+  top: 250px;
+  height:450px;
+}
+.slider{
+top: 87%;
+width: 100%;
+/* top: 3134px; */
+}
+.wrapper {
+  height: 4500px;
+  max-height: 4500px;
+}
+.form { 
+  top: 32%;
+  width: 80%;
+  left: 10%;
+  font-size: 18px;
+} 
+.form h1 {
+font-size: 19px;
+}
+.form input {
+height: 25px;
+  }
+input.buttonForm {
+    font-size: 18px;
+    width: 36%;
+    height: 7%; 
+  }
+.permission input {
+  width: 20px;
+  height: 20px;
+}
+.permission span {
+  font-size: 18px;
+}
+.schoolOnline p:last-child {
+  top: 72%;
+  width: 120%;
+  font-size: 32px;
+}
+
+
+ @media all and (max-width: 430px){ 
+  .joinSection .joinSectionText p{
+    font-size: 21px;
+  }
+  .joinSectionText button {
+    bottom: -160px;
+  }
+  .slider p {
+    width: 73%;
+  }
+  .arrowLeft {
+    top: 50%;
+    left: 7%;
+  }
+  .arrowRight {
+      top: 50%;
+      right: 7%;
+  }
+}
+@media all and (max-width: 387px){ 
+  .joinSection .joinSectionText p{
+    font-size: 19px;
+  }
+  .form h1 {
+    font-size: 17px;
+    }
+  .listAdvantages li{
+    padding: 4px;
+    } 
+  .listAdvantages li span {
+      font-size: 14px;
+     }
+  li:before {
+      margin-left: -23%;
+    }  
+  .containerFooter {
+      flex-wrap: wrap;  
+    }
+  .containerFooter a {
+     padding: 0 4px;
+    }
+}
+
+@media all and (max-width: 387px){ 
+  .permission span {
+    font-size: 14px;
+  }
+  .joinSectionText button {
+    width: 60%;
+  }
+  .slider button {
+    width: 40%;
+  }
+  li:before {
+    width: 15px;
+    height: 15px;
+  }  
+  .listAdvantages {
+    top: 16%;
+  }
+}
+@media all and (max-width: 336px){ 
+.slider p {
+  font-size: 16px;
+}
 }
