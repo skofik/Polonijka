@@ -7,125 +7,98 @@ body {
 }
 .wrapper {
   position: relative;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 3669px;
-  width: 100%;
+  margin: 0 auto;
   background-color: #ffffff;
   overflow: hidden;
-  max-width: 1440px;
-  max-height: 3669px;
+  max-width: 2000px;
   min-width: 320px;
-  /* width: 1440px;*/
 }
+
 
 /* Size and position all image */
 img {
   width: 100%;
   height: 100%;
 }
+
+.logo {
+  width: 372px;
+  height: 83px;
+  padding: 68px 0 0 114px;
+}
+
 .pictureFirst {
   position: absolute;
   top: 0;
   right: 0;
-  width: 52%;
-  /* height: 21%; */
-  height: auto;
-  /* height: 772.47px; */
-  /* width: 749.31px; */
+  height: 772.47px;
+  width: 740.31px;
 }
 
-.logo {
-  position: absolute;
-  top: 1.85%;
-  left: 7.91%;
-  width: 25.83%;
-  /* height: 2.26%; */
-  height: auto;
-  /* top: 68px; */
-  /* left: 114px; */
-  /* width: 372px; */
-  /* height: 83px; */
+
+.schoolOnline2 {
+  width: 936.3px;
+  height: 1489.49px;
+  margin-top: 176.2px;
+}
+.schoolOnline2 p, .schoolOnline2 h1 {
+  margin-left: 120px;
 }
 
-.schoolOnline {
-  position: absolute;
-  top: 8.91%;
-  left: 0;
-  width: 68.04%;
-  height: 30.7%;
-  /* width: 979.79px; */
-  /* top: 327.2px; */
-  /* height: 1126.67px; */
+.schoolOnline2 h1 {
+     width: 508px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 43px;
+    font-weight: bold;
+    padding-top: 13.8px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-.schoolOnline h1 {
-  padding-top: 4.21%;
-  padding-left: 12.24%;
+.schoolOnline2 p:nth-child(2){
+  line-height: 43px;
+  font-size: 32px;
+  width: 600px;
+  height: 112px;
+  margin-top: 47.2px;
+  margin-bottom: 0px;
+}
+.schoolOnline2 p:nth-child(4){
+  line-height: 43px;
+  font-size: 32px;
+  width: 600px;
+  height: 112px;
+  margin-left: 110.8px;
+  margin-top: 429px;
+}
+.schoolOnline2 div {
+  position: relative;
+  top: 248px;
+  left:-275px;
   display: block;
-  width: 51.84%;
-  height: 3.81%;
-  text-transform: uppercase;
-  font-size: 32px;
-  font-weight: bold;
-  /* padding-left: 120px; */
-  /* padding-top: 13.8px; */
-  /* width: 508px; */
-  /* height: 43px; */
-}
-.schoolOnline p {
-  width: 61.2%;
-  height: 9.94%;
-  font-size: 32px;
-  font-weight: normal;
-  padding-top: 5.41%;
-  padding-left: 12.24%;
-  /* padding-top: 61px;
-  padding-left: 120px; */
-  /* width: 600px;
-  height: 112px; */
+  height: 607px;
 }
 
-.imgGirl {
-  position: absolute;
-  top: 42.4%;
-  left: -28.06%;
-  /* height: 53.8%; */
-  height: auto;
-  /* top: 477.8px;
-  left: -275px;
-  height: 607px; */
-}
 
-.schoolOnline p:last-child {
-  position: absolute;
-  top: 107.11%;
-  width: 53.52%;
-  /* top: 1206.8px;
-  width: 524.4px; */
-}
 
 /*second page*/
 
 .listAdvantages {
   position: absolute;
   left: 51.11%;
-  top: 25.32%;
+  top: 25%;
   width: 52.03%;
   list-style-type: none;
-  /* left: 736px;
-  top: 929px;
-  width: 749.31px; */
 }
 .listAdvantages li {
-  padding: 1.33%;
+  padding: 1.5%;
   position: relative;
-  /* padding: 10px; */
 }
 .listAdvantages li span {
   font-size: 20px;
   font-weight: normal;
-  padding-right: 40%;
+  padding-right: 10%;
+  width: 100%;
 }
 
 li:before {
@@ -143,22 +116,56 @@ li:before {
 
 /*Form*/
 
+.statement {
+  position: absolute;
+  top:0;
+  left:500%;
+  width: 100%;
+  height: 100%;
+  background-color: #ffff;
+  display: block;
+  border-radius: 27px;
+  z-index: 3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statement button{
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #141e46;
+  width: 36%;
+  height: 7%;
+  margin-top: 30px;
+  border-radius: 20%/40%;
+  border-color: transparent;
+  background-color: #f9d400;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.statement p {
+  padding: 5px;
+}
+
+
 .form {
   position: absolute;
   top: 36.79%;
   left: 59.02%;
-  width: 24.09%;
-  /* height: auto; */
   height: 15.39%;
   border-radius: 27px;
   background-color: #ffff;
-  /* top: 1350px;
-  left: 850px;
   width: 347px;
-  height: 565px; */
+  height: 565px; 
+  z-index: 3;
 }
 .form form {
   height: 100%;
+  background-color: #ffff;
+  border-radius: 27px;
 }
 
 .form h1 {
@@ -167,35 +174,30 @@ li:before {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  padding: 4.77% 17% 0 13.25%;
-  /* padding-top: 27px;
-  padding-left: 46px;
-  padding-right: 59px; */
-  /* width: 242px;
-  height: 48px; */
+  padding: 27px 59px 0 46px; 
+  margin-top: 0px;
+  margin-bottom: 35px;
 }
 .form label {
-  margin-top: 5.3%;
-  /* margin-top: 30px; */
+margin-top: 3%;
+
 }
 .form span {
   display: block;
   width: 100%;
   padding-left: 13.25%;
-  /* padding-left: 46px; */
 }
 .form input {
-  width: 69.7%;
+  width: 75%;
+  height: 5%;
   margin: 0 0 1.67% 13.25%;
-  /* width: 242px;
-  margin-left: 46px;
-  margin-bottom: 10px; */
+  border: 1px solid #939393;
 }
 .form .country {
-  width: 23.05%;
+  width: 24%;
 }
 .form .telephone {
-  width: 44.09%;
+  width: 49%;
   margin-left: 1px;
 }
 
@@ -213,16 +215,14 @@ li:before {
   flex-direction: row;
 }
 .permission input {
-  margin: 1.76% 0 0 0;
-  width: 17px;
-  height: 17px;
+  margin: 0 0 0 0;
+  width: 20px;
+  height: 20px;
 }
 .permission span {
-  width: 69.74%;
-  padding: 0 11.52% 0 2.88%;
-  font-size: 13px;
-  /* width: 242px;
-  padding: 0 40px 0 10px; */
+  width: 80%;
+  padding: 0 5% 0 3%;
+  font-size: 11px;
 }
 a {
   text-decoration: none;
@@ -233,18 +233,17 @@ span.AddInformation {
   width: 69.74%;
   padding-left: 0px;
   margin-left: 11.52%;
-  /* margin-left: 40px; */
-  /* width: 242px; */
 }
 .AddInformation p {
   margin: 0px 0px;
   padding-top: 0.7%;
+  margin-left: -5%;
 }
 
 /*Button form*/
 input.buttonForm {
   font-family: "Nunito", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #141e46;
   position: relative;
@@ -266,39 +265,35 @@ input.buttonForm {
   left: -35%;
   bottom: 2%;
   z-index: -1;
-  width: 360.51%;
-  height: 117.69%;
-  /* width: 1251px;
-  height: 665px; */
+  width: 1251px;
+  height: 665px;
 }
 
 /*Second Section (beginningStudy)*/
+.beginningStudy{
+  position: relative;
+  margin-top:201px;
+  width:100%;
+
+}
+
 .beginningStudy h1 {
-  position: absolute;
-  top: 55%;
-  right: 50%;
-  transform: translateX(50%);
-  width: 50.6%;
   height: 3.24%;
+  line-height: 27px;
   text-align: center;
-  font-size: 30px;
-  margin: 0px 0px;
-  /* width: 729px;
-  height: 119px; */
-  /* top: 2018px; */
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 .contentBeginningStudy {
   width: 100%;
-  position: absolute;
-  top: 58.82%;
-  left: 0;
+  margin-top: 142px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-start;
-  /* top: 2158.17px; */
 }
 .contentBeginningStudy div {
   width: 20.13%;
@@ -308,50 +303,38 @@ input.buttonForm {
   justify-content: flex-start;
   align-items: center;
   padding: 0 3.47%;
-  /* width: 290px; */
 }
 .contentBeginningStudy div p {
   margin: 0 0 0 0;
   text-align: center;
-  padding-top: 10.43%;
+  padding-top: 30px;
   font-size: 20px;
-  /* padding-top: 30px; */
 }
 
 .contentBeginningStudy div .containerImg {
-  width: 63.35%;
- 
-  /* height: 55.15%; */
-  /* width: 160.01px;*/
+  width: 160.01px;
   height: 158.3px; 
 }
 
 /* Section third (joindSection) */
 .joinSection {
-  position: absolute;
-  bottom: 31.47%;
-  /* height: 100vh; */
-  left: 0;
+  position: relative;
   width: 100%;
-  /* bottom: 1155px; */
+  margin-top: 84px;
+
 }
 .joinSection img {
   width: 58.45%;
-  height: auto;
+  height: 583.71px;
   position: absolute;
   right: 52.87%;
-  top: 100%;
-  /* right: 761.46px; */
-  /* width: 841.8px; */
+  top: 0%;
 }
 .joinSection .joinSectionText {
-  position: absolute;
-  bottom: -459px;
-  right: 5.76%;
+  padding-top: 190px;
+  margin-left: 613px;
   width: 51.66%;
   height: 245px;
-  /* right: 83px; */
-  /* width: 744px; */
 }
 .joinSection .joinSectionText p {
   margin: 0 0 0 0;
@@ -369,36 +352,29 @@ input.buttonForm {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 16px;
-  position: absolute;
-  bottom: 1px;
-  left: 50%;
-  transform: translateX(-50%);
+  display: block;
+  margin: 7% auto;
   border-color: transparent;
   border-radius: 23px;
-  width: 22.8%;
-  height: 18.3%;
   text-transform: uppercase;
   background-color: #f9d400;
   cursor: pointer;
-  /* width: 170px; */
-  /* height: 45px; */
+  width: 170px;
+  height: 45px;
 }
 
 /* Slider */
 .slider {
-  position: absolute;
-  top: 85.41%;
-  left: 0;
+  position: relative;
+  margin-top: 129px;
   width: 100%;
-  /* top: 3134px; */
+
 }
 .slider h1 {
   font-size: 32px;
   font-weight: bold;
-  width: 46.1%;
-  /* width: 665px; */
   height: 52px;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
 }
 .slider p {
@@ -408,25 +384,21 @@ input.buttonForm {
   font-weight: bold;
   text-align: center;
   margin: 42px auto;
-  /* width: 855px; */
 }
 .slider span {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  position: absolute;
-  top: 70%;
-  right: 50%;
-  transform: translateX(50%);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -100px;
 }
 
 .slider button {
-  position: absolute;
-  top: 321px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 18%;
-  /* width: 259px; */
+  display: block;
+  margin: 5% auto;
+  width: 259px;
   height: 45px;
   border-radius: 23px;
   border-color: transparent;
@@ -442,8 +414,6 @@ input.buttonForm {
   position: absolute;
   top: 36%;
   right: 15.5%;
-  /* right: 224px; */
-  /* width: 16px; */
   width: 16px;
   height: 16px;
   transform: rotate(45deg);
@@ -455,9 +425,7 @@ input.buttonForm {
   position: absolute;
   top: 36%;
   left: 15.5%;
-  /* left: 226px; */
   width: 16px;
-  /* width: 16px; */
   height: 16px;
   transform: rotate(45deg);
   border-left: 4px solid #141e46;
@@ -467,13 +435,11 @@ input.buttonForm {
 
 /* Footer */
 .containerFooter {
-  position: absolute;
-  bottom: 0.76%;
-  /* bottom: 28px; */
+  position: relative;
+  top: 0%;
   left: 50%;
   transform: translateX(-50%);
   width: 54.375%;
-  /* width: 783px; */
   height: 62px;
   display: flex;
   flex-direction: row;
@@ -491,336 +457,503 @@ input.buttonForm {
 .fa-facebook-square,
 .fa-instagram {
   font-size: 25px;
-}
-
-/*Media */
-@media all and (max-width: 1377px) {
-  .slider h1 {
-    font-size: 30px;
-  }
-  .schoolOnline {
-    top: 5%;
-  }
-  .listAdvantages {
-    top: 21%;
-  }
-}
-@media all and (max-width: 1290px) {
-  .slider h1 {
-    font-size: 26px;
-    text-align: center;
-  }
-  .form h1 { 
-    font-size: 16px;
-}
-@media all and (max-width: 1118px) {
-  .slider h1 {
-    font-size: 26px;
-    text-align: center;
-    width: 60%;
-  }
-  .form h1 { 
-    font-size: 14px;
-}
-.listAdvantages {
-  width: 40.03%  
-}
-li:before {
-  margin-left: -8.3%;
-}
-}
-
-@media all and (max-width: 1071px){
-  .form { 
-    top: 33%;
-     width: 28%;
-     height: 15%;
 } 
-.joinSection .joinSectionText {
-  bottom: -400px;
-}
-.joinSection .joinSectionText p{
-  font-size: 24px;
-}
-.containerFooter a {
-  font-size: 12px;
-}
-.slider p {
-  font-size: 17px;
-}
-.listAdvantages {
-  top: 18.32%;
-}
-.schoolOnline p:last-child {
-  top: 95%;
-  }
-.beginningStudy h1 {   
-    top: 52%;
-  }
-.contentBeginningStudy {
-      top: 56%;
-    }
-}
-@media all and (max-width: 855px){
-  li:before {
-    margin-left: -11.3%;
-  }
-  .form { 
-    top: 33%;
-     width: 35%;
-     height: 15%;
-} 
-.joinSectionText button {
-  font-size: 14px;
-}
-.contentBeginningStudy div .containerImg {
-  height: 107.3px; 
-}
-.joinSection .joinSectionText {
-  bottom: -350px;
-}
-.containerFooter {
-  width: 70%;
-}
-.joinSectionText button {
-  bottom: -70px;
-}
-}
 
-@media all and (max-width: 750px){
 
+/*Media queries */
+
+@media all and (min-width: 1441px){
+  .joinSection img {
+    width: 841.68px;
+  }
   .joinSection .joinSectionText {
-    bottom: -200px;
+    margin-left: 42.56%;
+    width: 743,904px;
   }
-  .slider {
-    top: 83%;
-  }
-  .joinSectionText button {
-    font-size: 12px;
-  }
-  .form { 
-     width: 38%;
-} 
-.schoolOnline p {
-  font-size: 27px;
-}
-.schoolOnline h1 {
-  font-size: 28px;
-}
-.slider span {
-  top: 80%;
-}
-.contentBeginningStudy div p {
-  font-size: 16px;
-}
-}
-@media all and (max-width: 650px){
-.joinSectionText button {
-  width: 30%;
-}
-.schoolOnline h1 {
-  font-size: 25px;
-}
-.schoolOnline p {
-  font-size: 22px;
-}
-.listAdvantages li span {
- font-size: 16px;
-}
-li:before {
-  margin-left: -18.3%;
-}
-.containerFooter {
-  width: 90%;
-}
-.slider span {
-  top: 95%;
 }
 
-.slider button {
-  top: 400px;
-  width: 25%;
+@media all and (max-width: 1420px){
+ 
+.pictureFirst {
+  height: 742px;
+  width: 710px;
+}
+.schoolOnline2 p:nth-child(2){
+  width: 500px;
 }
 }
-@media all and (max-width: 580px){
-  .schoolOnline h1 {
-    font-size: 26px;
-    width:70%;
+@media all and (max-width: 1335px){
+  .pictureFirst {
+    height: 742px;
+    width: 640px;
   }
-  .schoolOnline p {
-    padding-top: 10%;
+}
+@media all and (max-width: 1267px){
+
+  .pictureFirst {
+    height: 700px;
+    width: 600px;
   }
-  .form { 
-     top: 33%;
-     width: 45%;
-     left: 50%;
-} 
-.beginningStudy h1 {
-  width: 80%;
-}
-.joinSectionText button {
-  bottom: -150px;
-}
-}
+  .schoolOnline2 div {
+  width: 900px;
+  }
+  .joinSection .joinSectionText {
+    margin-left: 550px;
+  }
+ }
+ @media all and (max-width: 1211px){
+  .pictureFirst {
+    height: 600px;
+    width: 450px;
+  }
+  .schoolOnline2 p:nth-child(4){
+    width: 500px;
+ }
+ .schoolOnline2 div {
+  width: 850px;
+  }
 
-/*powiekszenie zdjęć  i zmiana ustawienia obrazków*/
-@media all and (max-width: 470px){
+  @media all and (max-width: 1130px){ 
+    .joinSection .joinSectionText {
+      margin-left: 500px;
+    }
+    .schoolOnline2 p:nth-child(4){
+      width: 450px;
+   }
+   .schoolOnline2 div {
+    width: 800px;
+    }
+    .listAdvantages {
+      left: 48%;
+    }
+  }
+  @media all and (max-width: 1130px){ 
+    .schoolOnline2 h1 {
+      width: 400px;
+    }
+    .schoolOnline2 p:nth-child(2){
+      width: 500px;
+    }
+  }
+  @media all and (max-width: 1024px){ 
+    .schoolOnline2 p:nth-child(2){
+      width: 450px;
+    }
+    .schoolOnline2 div {
+      width: 700px;
+     top: 200px;
+     height: 507px;
+      }
+    .listAdvantages {
+        left: 44%;
+      }
+    .slider button {
+        width: 200px;
+      }
+    .joinSection .joinSectionText {
+        margin-left: 420px;
+      }
+  }
+  @media all and (max-width: 975px){ 
+    .pictureFirst {
+      height: 500px;
+      width: 350px;
+    }
+    .schoolOnline2 div {
+    width: 600px;
+     height: 407px;
+      }
+    .listAdvantages {
+        left: 37%;
+      }
+      .schoolOnline2 p:nth-child(4){
+        width: 300px;
+     }
+    .slider p {
+      font-size: 18px;
+    }
+    .containerFooter {
+      flex-wrap: wrap;
+    }
+    .containerFooter a {
+   padding: 4px;
+    }
+    .contentBeginningStudy div {
+      width: 260px;
+    }
+    li:before {
+      margin-left: -8.3%;
+    }
+  }
+  @media all and (max-width: 895px){ 
 
-  .schoolOnline h1 {
-   width: 80%;
-    font-size: 20px;
-    font-weight: bold;
+  .schoolOnline2 p:nth-child(4){
+      margin-top: 220px;
+      width: 500px;
+   }
+   .listAdvantages {
+    top: 20%;  
+  }
+  .schoolOnline2 { 
+    margin-top: 80px;
+  }
+  
+.form {
+  left: 30.02%;
+  width: 447px;
+  height: 665px; 
+}
+.SecondPlanForm {
+  left: -35%;
+  width: 1351px;
+  height: 765px;
+}
+.beginningStudy{
+  margin-top:300px;
+}
+  }
+  @media all and (max-width: 895px){ 
+    .joinSection .joinSectionText {
+      margin-left: 350px;
+    }
+    .schoolOnline2 div {   
+      top: 50px;
+      width: 500px;
+     height: 307px;
+     left:-200px;
+    }
+    .schoolOnline2 p:nth-child(4){
+      margin-top: 280px;    
+   }
+   .form h1 {
+    font-size: 22px; 
+  }
+  .form span{
+    font-size: 15px;
+  }
+  .containerFooter {
+    width: 90%;
   }
   .pictureFirst {
-    width: 56%;
-    height: 15%;
+    height: 350px;
+    width: 250px;
   }
-  .imgGirl {
-    height: 30%;
+  }
+  @media all and (max-width: 790px){ 
+    .schoolOnline2 div {   
+      top: 50px;
+      width: 400px;
+     height: 207px;
+     left:-150px;
     }
-    .listAdvantages { 
-      left: 47%; 
+    .listAdvantages {
+      top: 16%;  
+    }  
+   .form {
+   top: 33%;
     }
-
-.joinSectionText button {
-  bottom: -200px;
-  width: 40%;
+  }
+  @media all and (max-width: 727px){  
+.logo {
+  padding: 68px 0 0 70px;
+  width: 186px;
+  height: 41px;
 }
-.slider h1 {
-  width: 90%;
+.schoolOnline2 p, .schoolOnline2 h1 {
+  margin-left: 70px;
 }
-.slider span {
-  top: 105%;
+.schoolOnline2 p:nth-child(4){
+  margin-left: 70px;    
 }
-.containerFooter a {
-  font-size: 10px;
+.schoolOnline2 { 
+  margin-top: 30px;
 }
-/*zmiana flexa dla sekcji beginnStudy*/
+.schoolOnline2 p:nth-child(2){
+  font-size: 25px;
+  width: 350px;
+}
+.listAdvantages {
+  top: 13%;  
+} 
 .contentBeginningStudy {
-  top: 56%;
   flex-direction: column;
   align-items: center; 
 }
 .contentBeginningStudy div {
-  width: 60%;;
-  height: 250px;
+  width: 300px;
+  height: 350px;
+  padding-bottom: 20px;
 }
 .contentBeginningStudy div p {
-  margin: 0 0 0 0;
-  text-align: center;
-  padding-top: 10.43%;
-  font-size: 18px;
+  font-size: 25px;
 }
-.joinSection .joinSectionText {
-  bottom: -550px;
+.contentBeginningStudy div .containerImg {
+  width: 200px;
+  height: 200px; 
+}
+.joinSection {
+  margin-top: 10px;
 }
 .joinSection img {
-  top: 250px;
-  height:450px;
+  width: 58.45%;  
+  height: 300px;
 }
-.slider{
-top: 87%;
-width: 100%;
-/* top: 3134px; */
+.joinSection .joinSectionText {
+  padding-top: 120px;
+  margin-left: 270px;
+  width: 50%;
 }
-.wrapper {
-  height: 4500px;
-  max-height: 4500px;
+.joinSection .joinSectionText p {
+  font-size: 20px;
 }
-.form { 
-  top: 32%;
-  width: 80%;
-  left: 10%;
-  font-size: 18px;
-} 
-.form h1 {
-font-size: 19px;
+.slider {
+  margin-top: 60px;
+  width: 100%;
 }
-.form input {
-height: 25px;
+.slider span {
+  margin-top: -50px;
+}
+.form {
+  top: 26%;
+   }
   }
-input.buttonForm {
-    font-size: 18px;
-    width: 36%;
-    height: 7%; 
-  }
-.permission input {
-  width: 20px;
-  height: 20px;
-}
-.permission span {
-  font-size: 18px;
-}
-.schoolOnline p:last-child {
-  top: 72%;
-  width: 120%;
-  font-size: 32px;
-}
+  @media all and (max-width: 670px){  
 
-
- @media all and (max-width: 430px){ 
-  .joinSection .joinSectionText p{
-    font-size: 21px;
+    .form {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .schoolOnline2 p:nth-child(2){
+      font-size: 20px;
+      line-height: 23px;
+    }
+    .schoolOnline2 div {   
+      top: -15px;
+    }
+    .listAdvantages {
+      left: 50%;
+      transform: translateX(-50%);
+      top: 14%;
+      width: 80%;
+    }
+    .beginningStudy h1 {
+      width: 80%;
+      line-height: 40px;
+      font-size: 32px;
+      
+    }
+    .slider h1 {
+      width: 80%;
+      font-size: 25px;
+    }
   }
-  .joinSectionText button {
-    bottom: -160px;
+
+    @media all and (max-width: 575px){ 
+      .joinSection .joinSectionText {
+        padding-top: 120px;
+        margin-left: 40%;
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+      }
+      .pictureFirst {
+        top: 9%;
+        height: 200px;
+        width: 200px;
+      }
+      .logo {
+       margin: 0 auto;
+       padding-left: 0;
+      }
+      .schoolOnline2 h1 {
+      width: 400px;
+       margin: 0 auto;
+       text-align: left;
+       padding-left: 0px;
+       font-size: 25px;  
+       margin-left:5%;
+       margin-right: 5%;
+   }
+  
+      .schoolOnline2 p:nth-child(4){
+        font-size: 25px;   
+        width: 400px;
+        margin-top: 350px;    
+ }
+    
+    .beginningStudy{
+      margin-top:50px;
+    }
+    .form {
+      top: 28%;
+      width: 347px;
+      height: 565px; 
+    }
+    .form h1 {
+      font-size: 20px; 
+    }
+    .form span{
+      font-size: 12px;
+    }
+    .SecondPlanForm {     
+      width: 1151px;
+      height: 565px;
+      bottom:10%;
+    } 
+    .slider span { 
+      margin-top: 0px;
+  }
+
+  .contentBeginningStudy div .containerImg {
+    width: 160.01px;
+    height: 158.3px; 
+    margin-top: -100px;
+  }
+  .joinSection {
+    margin-top: -100px;
+  }
+}
+@media all and (max-width: 490px){ 
+  .logo {
+   padding-top: 30px;
+  }
+  .joinSection {
+    margin-top: -150px;
+  }
+  .slider {
+    margin-top: 100px;
   }
   .slider p {
-    width: 73%;
+    font-size: 16px;
   }
-  .arrowLeft {
-    top: 50%;
-    left: 7%;
+  .joinSection .joinSectionText p {
+    font-size: 18px;
   }
-  .arrowRight {
-      top: 50%;
-      right: 7%;
+  .pictureFirst {
+    top: 9%;
+    height: 160px;
+    width: 150px;
   }
+  .schoolOnline2 div {   
+    top: 0px;
+    width: 200px;
+   height: 180px;
+   left:-50px;
+  }
+  .schoolOnline2 p:nth-child(4){
+    margin: 0 auto;
+    margin-top: 270px;   
+    text-align: center; 
 }
-@media all and (max-width: 387px){ 
-  .joinSection .joinSectionText p{
-    font-size: 19px;
-  }
-  .form h1 {
-    font-size: 17px;
-    }
-  .listAdvantages li{
-    padding: 4px;
-    } 
-  .listAdvantages li span {
-      font-size: 14px;
-     }
-  li:before {
-      margin-left: -23%;
-    }  
-  .containerFooter {
-      flex-wrap: wrap;  
-    }
-  .containerFooter a {
-     padding: 0 4px;
-    }
+.schoolOnline2{
+  width: 100%;
+}
+ .schoolOnline2 h1 {
+   width: 80%;
+   font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+.listAdvantages li span {
+  font-size: 16px; 
+}
+.form {
+  top: 25%;
+}
+.schoolOnline2 p:nth-child(2){
+  font-size: 20px;
+  line-height: 23px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 47.2px;
+  text-align: center;
+}
+.containerFooter {
+  margin-bottom: 8%;
+}
 }
 
-@media all and (max-width: 387px){ 
-  .permission span {
-    font-size: 14px;
-  }
-  .joinSectionText button {
-    width: 60%;
-  }
-  .slider button {
-    width: 40%;
-  }
+@media all and (max-width: 390px){ 
+
   li:before {
-    width: 15px;
-    height: 15px;
-  }  
-  .listAdvantages {
-    top: 16%;
-  }
+    margin-left: -12.3%;
 }
-@media all and (max-width: 336px){ 
-.slider p {
+.schoolOnline2 p:nth-child(4){
+  font-size: 20px;
+  line-height: 26px;
+  width: 80%;
+  margin-top: 370px;
+}
+.beginningStudy h1 {
+  font-size: 20px;
+}
+.contentBeginningStudy div {
+  width: 250px;
+  height: 200px;
+ 
+}
+.contentBeginningStudy div p {
   font-size: 16px;
 }
+.contentBeginningStudy div .containerImg {
+  width: 90px;
+  height: 95px;
 }
+.beginningStudy{
+  margin-top: 70px;
+}
+.joinSection {
+  margin-top: -100px;
+}
+.slider p {
+  width: 70%;
+}
+.slider h1 {
+  font-size: 20px;
+}
+.arrowRight {
+  right: 8.5%;
+}
+.arrowLeft{
+  left: 8.5%;
+}
+.pictureFirst {
+  top: 12%;
+}
+.listAdvantages {
+  top: 18%;  
+}
+.form {
+  top: 31%;
+  width: 280px;
+  height: 500px;
+}
+.form h1 {
+  font-size:13px;
+  margin-bottom: 8px;
+  padding-top: 20px;
+}
+
+.joinSection .joinSectionText p {
+  font-size: 15px;
+}
+.SecondPlanForm {     
+  width: 951px;
+  height: 565px;
+  bottom:1%;
+} 
+}
+
+@media all and (max-width: 333px){ 
+  .slider span {
+    margin-top: 70px;
+  }
+  .containerFooter {
+    margin-bottom: 15%;
+  }
+}
+
+  
+
+
+

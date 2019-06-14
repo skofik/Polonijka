@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <title>Polonijka-Szkoła podstawowa</title>
   </head>
 
@@ -18,75 +26,84 @@
       <div class="pictureFirst">
         <img src="image/zdjecie1.png" alt="mama z córką" />
       </div>
-      <div class="schoolOnline">
+      <section class="schoolOnline2">
         <h1>Polska szkoła internetowa</h1>
-        <p>Sprawimy że twoje dziecko będzie swobodnie rozmawiało w języku polskim</p>
-        <img src="image/dziewczynka.png" alt="dziewczynka" class="imgGirl" />
+        <p>Sprawimy że twoje dziecko będzie swobodnie rozmawiało w języku polskim </p>
+        <div>
+          <img src="image/dziewczynka.png" alt="dziewczynka" class="imgGirl" />
+        </div>
         <p>Sprawdź, jak prosta i przyjemna jest nauka z Polonijką!</p>
-      </div>
-        <ul class="listAdvantages">
-          <li><span>Nauka przez internetową Platformę Edukacyjną,</br> bez wychodzenia z domu</span></li>
-          <li><span> Materiały edukacyjne dostosowane do indywidualnych</br> potrzeb dziecka</span></li>
-          <li><span>Lekcje on-line z polskim nauczycielem</span></li>
-          <li><span>Program nauczania zgodny z polską podstawą programową</span></li>
-        </ul>
-        <div class="form">
-            <form>
-                <h1>Wypełnij formularz i otrzymaj więcej informacji!</h1>
-                <label><span>Imię Rodzica*</span><input type="text" class="name" placeholder="imię"></label>
-                <label><span>E-mail*</span><input type="email" class="email" placeholder="E-mail"></label>
-                <label><input type="text" list="kraj" placeholder="Kraj" class="country"> 
-                    <datalist id="kraj"> 
-                       <option value="Polska">
-                       <option value="Niemcy">
-                       <option value="Rosja">
-                       <option value="Chiny">           
-                    </datalist>
-                <input type="tel" class="telephone" placeholder=" +xx Numer telefonu"></label>
-              <label class="permission">
-                <label><input type="checkbox" name="info" class="rules" value="rules"><span>Zapoznałem się z treścią <a href="#">regulaminu</a> i akceptuje jego postanowienia *</span></label>
-                <label><input type="checkbox" name="info" value="permissionEmail"><span>Chce otrzymywać informacje o ofercie edukacyjnej Polonijki        Polonijnej Szkoły Podstawowej na podany adres e-mail</span></label>
-                <label><input type="checkbox" name="info" value="permissionTel"><span>Chce otrzymywać informacje o ofercie edukacyjnej Polonijki          Polonijnej Szkoły Podstawowej na podany przezemnie numer telefonu (rozmowa, sms) </span></label>
-               </label>
-                <span class="AddInformation">
-                    <p><a href="#">informacje o przetwarzanych danych osobowych</a></p>
-                    <p> * obowiązkowe</p>
-                    <p> Zarejestruj sie aby otrzymać ofertę dostępu do pełnej wersji platformy</p>
-                </span>
-                 <input type="submit" value="Wyślij" class="buttonForm">
-            </form>
-            <img src="image/plama-zolta.png" alt="plama-zolta" class="SecondPlanForm">
-         </div>
-     <section class="beginningStudy">
+      </section>
+
+      <section class="advantageSection">
+          <ul class="listAdvantages">
+              <li><span>Nauka przez internetową Platformę Edukacyjną,</br> bez wychodzenia z domu</span></li>
+              <li><span> Materiały edukacyjne dostosowane do indywidualnych</br> potrzeb dziecka</span></li>
+              <li><span>Lekcje on-line z polskim nauczycielem</span></li>
+              <li><span>Program nauczania zgodny z polską podstawą programową</span></li>
+            </ul>
+            <div class="form">
+                <div class="statement">
+                    <p>Proszę poprawnie uzupełnić formularz, Wszystkie błedy podkreślono na czerwono </p>
+                    <button class="statementButton">OK</button>
+                  </div>
+                <form>
+                    <h1>Wypełnij formularz i otrzymaj więcej informacji!</h1>
+                    <label><span>imię rodzica*</span><input type="text" class="name" placeholder=""></label>
+                    <label><span>E-mail*</span><input type="email" class="email" placeholder=""></label>
+                    <label><input type="text" list="kraj" placeholder="Kraj" class="country"> 
+                        <datalist id="kraj"> 
+                           <option value="Polska">
+                           <option value="Niemcy">
+                           <option value="Rosja">
+                           <option value="Chiny">           
+                        </datalist>
+                    <input type="tel" class="telephone" placeholder=" +xx Numer telefonu"></label>
+                  <label class="permission">
+                    <label><input type="checkbox" name="info" class="rules" value="rules"><span class="rules">Zapoznałem się z treścią <a href="#">regulaminu</a> i akceptuje jego postanowienia *</span></label>
+                    <label><input type="checkbox" name="info" value="permissionEmail"><span>Chce otrzymywać informacje o ofercie edukacyjnej Polonijki Polonijnej Szkoły Podstawowej na podany adres e-mail</span></label>
+                    <label><input type="checkbox" name="info" value="permissionTel"><span>Chce otrzymywać informacje o ofercie edukacyjnej Polonijki Polonijnej Szkoły Podstawowej na podany przezemnie numer telefonu (rozmowa, sms) </span></label>
+                   </label>
+                    <span class="AddInformation">
+                        <p><a href="#">informacje o przetwarzanych danych osobowych</a></p>
+                        <p> * obowiązkowe</p>
+                        <p> Zarejestruj sie aby otrzymać ofertę dostępu do pełnej wersji platformy</p>
+                    </span>
+                     <input type="submit" value="Wyślij" class="buttonForm">
+                </form>
+                <img src="image/plama-zolta.png" alt="plama-zolta" class="SecondPlanForm">
+             </div>
+      </section>
+      <section class="beginningStudy">
        <h1>Dlaczego warto rozpocząć naukę na Polonijce ? </h1>
        <div class="contentBeginningStudy">
        <div><div class="containerImg"><img src="image/ikonka1.png" alt="materiały edukacyjne"></div><p>Materiały edukacyjne i scenariusze lekcyjne udostępniane są przez cały rok.</p></div>
        <div><div class="containerImg"><img src="image/ikonka2.png" alt="czas i miejsce nauki"></div><p>Czas i miejsce nauki zależy tylko od Was. Wystarczy mieć dostęp do internetu.</p></div>
        <div><div class="containerImg"><img src="image/teacher.png" alt="stały kontakt"></div><p>Stały kontakt z polskimi nauczycielami.</p></div>
       </div>
-     </section>   
-
+     </section>  
      <section class="joinSection">
-       <img src="image/chlopiec.png" alt="chłopiec">
-       <div class="joinSectionText">
-          <p>Dołącz do 16 000 zadowolonych rodzin, które skorzystały z Internetowej Platformy Edukacyjnej.<span> Pozwól swojemu dziecku poznać Polskę!</span></p>
-          <button>Przetestuj</button>
-        </div>
-     </section>
-     <section class="slider">
-          <h1>Przeczytaj co o Polonijce, mówią inni rodzice</h1>
-          <p>Po dwóch miesiącach nauki widzimy już lekką zmianę w porozumiewaniu się z synem po polsku. Dziękujemy twórcom tego programu i życzymy    jeszcze więcej pomysłów i wytrwałości w tworzeniu tej strony. Oczywiście polecamy wszystkim rodzicom mieszkającym za granica ze          swoimi pociechami.</p><span> Tata Radek</span>
-          <button class="buttonTest">przetestuj polonijkę</button>
-          <div class="arrowRight arrow"></div>
-         <div class="arrowLeft arrow"></div>
-     </section>
-     <footer class="containerFooter">
-       <a href="www.polonijka.edu.pl">www.polonijka.edu.pl</a>
-       <a href="secretariat@polonijka.edu.pl">sekretariat@polonijka.edu.pl</a>
-       <a href="+48 123 502 890">+48 123 502 890</a>
-       <a href="#"><i class="fab fa-instagram"></i></a>
-       <a href="#"><i class="fab fa-facebook-square"></i></a>
-     </footer>
+        <img src="image/chlopiec.png" alt="chłopiec">
+        <div class="joinSectionText">
+           <p>Dołącz do 16 000 zadowolonych rodzin, które skorzystały z Internetowej Platformy Edukacyjnej.<span> Pozwól swojemu dziecku poznać Polskę!</span></p>
+           <button>Przetestuj</button>
+         </div>
+      </section>
+      <section class="slider">
+           <h1>Przeczytaj co o Polonijce, mówią inni rodzice</h1>
+           <p>Po dwóch miesiącach nauki widzimy już lekką zmianę w porozumiewaniu się z synem po polsku. Dziękujemy twórcom tego programu i życzymy jeszcze więcej pomysłów i wytrwałości w tworzeniu tej strony. Oczywiście polecamy wszystkim rodzicom mieszkającym za granica ze  swoimi pociechami.</p>
+           <span> Tata Radek</span>
+           <button class="buttonTest">przetestuj polonijkę</button>
+           <div class="arrowRight arrow"></div>
+          <div class="arrowLeft arrow"></div>
+      </section>
+      <footer class="containerFooter">
+        <a href="www.polonijka.edu.pl">www.polonijka.edu.pl</a>
+        <a href="secretariat@polonijka.edu.pl">sekretariat@polonijka.edu.pl</a>
+        <a href="+48 123 502 890">+48 123 502 890</a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+      </footer>
     </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
