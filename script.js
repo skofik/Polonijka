@@ -12,6 +12,8 @@ const form = {
   checkbox: ""
 };
 
+//function checked Form
+
 const checkedValue = e => {
   const { type, value, className } = e.target;
   if (className === "name") {
@@ -46,7 +48,6 @@ allElementForm.map(item => {
 
 const SendForm = e => {
   e.preventDefault();
-
   statement.style.left = "0%";
   statementButton.addEventListener("click", () => {
     statement.style.left = "200%";
